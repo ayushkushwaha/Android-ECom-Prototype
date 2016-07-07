@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DesiBaazar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_registration">Registration</string>
+
+    <string-array name="Country">
+        <item>Select Country</item>
+        <item>India</item>
+        <item>United States</item>
+        <item>Sri Lanka</item>
+    </string-array>
+
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_products">Products</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_cart">Cart</string>
+    <string name="title_activity_order">Order</string>
+    <string name="title_activity_details">Details</string>
+    <string name="title_activity_profile">Profile</string>
+
+</resources>

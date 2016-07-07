@@ -1,0 +1,258 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e8eaf6"
+    android:orientation="vertical"
+    tools:context="in.sli.desibaazar.Registration" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="Register Now"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#01579b" />
+
+            <LinearLayout
+                android:id="@+id/Name_Container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="5dp" >
+
+                <TextView
+                    android:id="@+id/Name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Name"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#01579b"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/editName"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textEmailAddress"
+                    android:textColor="#01579b"
+                    android:textColorLink="#EBF5FA" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Email_Container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="5dp" >
+
+                <TextView
+                    android:id="@+id/Email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Email"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#01579b"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/editText1"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textEmailAddress"
+                    android:textColor="#01579b"
+                    android:textColorLink="#EBF5FA" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Password_Container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="5dp" >
+
+                <TextView
+                    android:id="@+id/Password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Password"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#01579b"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/editPassword"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPassword"
+                    android:textColor="#01579b"
+                    android:textColorLink="#EBF5FA" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/RePassword_Container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="5dp" >
+
+                <TextView
+                    android:id="@+id/RePassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Re-Password"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#01579b"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/editRePassword"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPassword"
+                    android:textColor="#01579b"
+                    android:textColorLink="#EBF5FA" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Gender_Container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="5dp" >
+
+                <TextView
+                    android:id="@+id/Gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Gender"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#01579b"
+                    android:textSize="15sp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGender"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/radioFemale"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="Female"
+                        android:textColor="#01579b" />
+
+                    <RadioButton
+                        android:id="@+id/radioMale"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Male"
+                        android:textColor="#01579b" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Country_Container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="5dp" >
+
+                <TextView
+                    android:id="@+id/Country"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Country"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#01579b"
+                    android:textSize="15sp" />
+
+                <Spinner
+                    android:id="@+id/editCountry"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:entries="@array/Country"
+                    android:textColor="#01579b"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Button_Container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp" >
+
+                <Button
+                    android:id="@+id/Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button"
+                    android:duplicateParentState="false"
+                    android:longClickable="false"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:text="Submit"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/E:/StudioProjects/DesiBaazar1/app/src/main/res/layout/activity_registration.xml -->
